@@ -49,8 +49,8 @@
 #include <ESP8266Ping.h>              // Used to send ping requests to a IP-address (of your smart phone) to detect if you have left your home
 #include "settings.h"                 // Settings are stored in a seperate file to make to code better readable and to be able to switch to other settings faster
 #include "languages.h"                // Translation for texts for the HTML page
-
-
+#include "main.h"                     // Declaration of functions used in main
+#include <SPI.h>
 // ###########################################################################################################################################
 // # Version number of the code:
 // ###########################################################################################################################################
